@@ -1,1 +1,11 @@
 modified input files for cwl
+
+-Download CWL workflow file
+'''
+wget -O pcawg-sanger-caller.cwl https://github.com/xxx58/CGP-Somatic-Docker/new-input-cwl/sanger-caller.cwl
+wger -O pcawg-sanger-caller-job.json https://github.com/xxx58/CGP-Somatic-Docker/new-input-cwl/sanger-caller-job.json
+'''
+
+-Run 'cwltool' to execute the workflow
+'''
+nohup cwltool --debug --non-strict pcawg-sanger-caller.cwl pcawg-sanger-caller-job.json > sanger-caller.log 2>&1 &
