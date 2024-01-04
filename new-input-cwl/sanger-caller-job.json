@@ -53,17 +53,17 @@
   {
     "path":"/home/xpy/job/pan-sanger/output/somatic_verifyBamId_tar_gz",
     "class":"File"
-  }
+  },
   "bas_tar_gz":
   {
     "path":"/home/xpy/job/pan-sanger/output/",
     "class":"File"
-  }
+  },
   "qc_metrics":
   {
     "path":"/home/xpy/job/pan-sanger/output/",
     "class":"File"
-  }
+  },
   "timing_metrics":
   {
     "path":"/home/xpy/job/pan-sanger/output/",
